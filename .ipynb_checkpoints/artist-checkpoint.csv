@@ -1,0 +1,290 @@
+Artist_ID,Artist
+1,The Beatles
+2,The Beach Boys
+3,Bob Dylan
+4,Marvin Gaye
+5,The Rolling Stones
+6,The Clash
+7,Elvis Presley
+8,Miles Davis
+9,The Velvet Underground
+10,The Jimi Hendrix Experience
+11,Nirvana
+12,Bruce Springsteen
+13,Van Morrison
+14,Michael Jackson
+15,Chuck Berry
+16,Robert Johnson
+17,John Lennon / Plastic Ono Band
+18,Stevie Wonder
+19,James Brown
+20,Fleetwood Mac
+21,U2
+22,The Who
+23,Led Zeppelin
+24,Joni Mitchell
+25,Ramones
+26,The Band
+27,David Bowie
+28,Carole King
+29,Eagles
+30,Muddy Waters
+31,Love
+32,Sex Pistols
+33,The Doors
+34,Pink Floyd
+35,Patti Smith
+36,Bob Marley & The Wailers
+37,John Coltrane
+38,Public Enemy
+39,The Allman Brothers Band
+40,Little Richard
+41,Simon & Garfunkel
+42,Al Green
+43,Ray Charles
+44,Creedence Clearwater Revival
+45,Captain Beefheart & His Magic Band
+46,Sly & The Family Stone
+47,Guns N' Roses
+48,Phil Spector
+49,Radiohead
+50,Billy Joel
+51,Paul Simon
+52,Curtis Mayfield
+53,Neil Young
+54,Prince and the Revolution
+55,AC/DC
+56,Otis Redding
+57,John Lennon
+58,Aretha Franklin
+59,Johnny Cash
+60,Dusty Springfield
+61,Elton John
+62,Buddy Holly
+63,Prince
+64,Hank Williams
+65,Elvis Costello
+66,The Zombies
+67,Frank Sinatra
+68,Cream
+69,James Taylor
+70,Sam Cooke
+71,The Mamas and the Papas
+72,Derek and the Dominos
+73,Kanye West
+74,Etta James
+75,The Byrds
+76,Various Artists
+77,Run D.M.C.
+78,Moby Grape
+79,Janis Joplin
+80,The Wailers
+81,Iggy and The Stooges
+82,Talking Heads
+83,Television
+84,Black Sabbath
+85,The Notorious B.I.G.
+86,Pavement
+87,The Replacements
+88,Dr. Dre
+89,The Meters
+90,Blondie
+91,B.B. King
+92,"Dr. John, the Night Tripper"
+93,N.W.A
+94,Steely Dan
+95,Jefferson Airplane
+96,"Crosby, Stills, Nash & Young"
+97,Santana
+98,Arcade Fire
+99,The B 52's
+100,A Tribe Called Quest
+101,Howlin' Wolf
+102,Pretenders
+103,Beastie Boys
+104,Joy Division
+105,KISS
+106,T. Rex
+107,Linda Ronstadt
+108,Elvis Costello & The Attractions
+109,Metallica
+110,Rod Stewart
+111,Todd Rundgren
+112,Carpenters
+113,Aerosmith
+114,Funkadelic
+115,Curtis Mayfield and The Impressions
+116,ABBA
+117,Willie Nelson
+118,Madonna
+119,The Stooges
+120,Peter Gabriel
+121,Buffalo Springfield
+122,Quicksilver Messenger Service
+123,The Flying Burrito Brothers
+124,Green Day
+125,Lou Reed
+126,John Mayall & The Bluesbreakers
+127,R.E.M.
+128,Little Walter
+129,The Strokes
+130,Nine Inch Nails
+131,Cat Stevens
+132,Pearl Jam
+133,Neil Young & Crazy Horse
+134,Ike & Tina Turner
+135,New York Dolls
+136,Bo Diddley
+137,"Bobby ""Blue"" Bland"
+138,The Smiths
+139,My Bloody Valentine
+140,Professor Longhair
+141,Neil Diamond
+142,Pixies
+143,Eric B. & Rakim
+144,Bonnie Raitt
+145,Queen
+146,The Kinks
+147,Patsy Cline
+148,Jackie Wilson
+149,Eminem
+150,Jerry Lee Lewis
+151,The Mothers of Invention
+152,The Grateful Dead
+153,Ornette Coleman
+154,Jay Z
+155,Kraftwerk
+156,Whitney Houston
+157,Janet
+158,Grateful Dead
+159,"Crosby, Stills & Nash"
+160,Tracy Chapman
+161,"Blood, Sweat & Tears"
+162,The Jesus and Mary Chain
+163,Sleater Kinney
+164,Smokey Robinson & The Miracles
+165,LaBelle
+166,Parliament
+167,Janet Jackson
+168,Various
+169,Mary J. Blige
+170,Barry White
+171,The Cars
+172,X
+173,Bob Dylan and the Band
+174,MC5
+175,Leonard Cohen
+176,Weezer
+177,Dolly Parton
+178,Jeff Buckley
+179,Lucinda Williams
+180,Beck
+181,Red Hot Chili Peppers
+182,Jane's Addiction
+183,Lauryn Hill
+184,Tom Petty and the Heartbreakers
+185,The O'Jays
+186,Nick Drake
+187,Randy Newman
+188,The Police
+189,Eric Clapton
+190,The Cure
+191,Liz Phair
+192,Sonic Youth
+193,Richard & Linda Thompson
+194,Graham Parker & The Rumour
+195,Soundgarden
+196,Jethro Tull
+197,Big Brother & the Holding Company
+198,Tom Waits
+199,Black Flag
+200,Moby
+201,Depeche Mode
+202,Meat Loaf
+203,De La Soul
+204,The Yardbirds
+205,Dire Straits
+206,Buzzcocks
+207,OutKast
+208,The Smashing Pumpkins
+209,New Order
+210,Rage Against the Machine
+211,Mott the Hoople
+212,Arctic Monkeys
+213,Roxy Music
+214,Jackson Browne
+215,Bjork
+216,John Lee Hooker
+217,Oasis
+218,TLC
+219,Toots & The Maytals
+220,The Modern Lovers
+221,Wu Tang Clan
+222,Don Henley
+223,The White Stripes
+224,M.I.A.
+225,LCD Soundsystem
+226,Massive Attack
+227,ZZ Top
+228,The Temptations
+229,Nas
+230,Lynyrd Skynyrd
+231,Dr. John
+232,Big Star
+233,PJ Harvey
+234,Sinead O'Connor
+235,Wire
+236,Minutemen
+237,The Go Go's
+238,Van Halen
+239,Paul McCartney & Wings
+240,Portishead
+241,The Crickets
+242,The Ronettes
+243,Diana Ross & The Supremes
+244,Gram Parsons
+245,Cheap Trick
+246,Peter Wolf
+247,Brian Eno
+248,Vampire Weekend
+249,George Harrison
+250,Lil Wayne
+251,The Pogues
+252,Suicide
+253,DEVO
+254,War
+255,Steve Miller Band
+256,Stan GetzÊ/ÊJoao GilbertoÊfeaturingÊAntonio Carlos Jobim
+257,Amy Winehouse
+258,John Prine
+259,EPMD
+260,Alice Cooper
+261,Los Lobos
+262,My Morning Jacket
+263,The Drifters
+264,Hole
+265,Public Image Ltd.
+266,Echo and The Bunnymen
+267,Def Leppard
+268,The Magnetic Fields
+269,Coldplay
+270,The Paul Butterfield Blues Band
+271,Fugees
+272,L.L. Cool J
+273,George Michael
+274,Manu Chao
+275,Merle Haggard
+276,Loretta Lynn
+277,Raekwon
+278,D'Angelo
+279,Steve Earle
+280,Gang of Four
+281,"Earth, Wind & Fire"
+282,Cyndi Lauper
+283,Husker Du
+284,Albert King
+285,Eurythmics
+286,Wilco
+287,MGMT
+288,Boz Scaggs
+289,The Stone Roses

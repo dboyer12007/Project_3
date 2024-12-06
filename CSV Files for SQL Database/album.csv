@@ -1,0 +1,501 @@
+Album_ID,Album,Rank,Released_Year
+1,Sgt. Pepper's Lonely Hearts Club Band,1,1967
+2,Pet Sounds,2,1966
+3,Revolver,3,1966
+4,Highway 61 Revisited,4,1965
+5,Rubber Soul,5,1965
+6,What's Going On,6,1971
+7,Exile on Main St.,7,1972
+8,London Calling,8,1979
+9,Blonde on Blonde,9,1966
+10,"The Beatles (""The White Album"")",10,1968
+11,The Sun Sessions,11,1976
+12,Kind of Blue,12,1959
+13,The Velvet Underground & Nico,13,1967
+14,Abbey Road,14,1969
+15,Are You Experienced,15,1967
+16,Blood on the Tracks,16,1975
+17,Nevermind,17,1991
+18,Born to Run,18,1975
+19,Astral Weeks,19,1968
+20,Thriller,20,1982
+21,The Great Twenty_Eight,21,1982
+22,The Complete Recordings,22,1990
+23,John Lennon/Plastic Ono Band,23,1970
+24,Innervisions,24,1973
+25,"Live at the Apollo, 1962",25,1963
+26,Rumours,26,1977
+27,The Joshua Tree,27,1987
+28,Who's Next,28,1971
+29,Led Zeppelin,29,1969
+30,Blue,30,1971
+31,Bringing It All Back Home,31,1965
+32,Let It Bleed,32,1969
+33,Ramones,33,1976
+34,Music From Big Pink,34,1968
+35,The Rise and Fall of Ziggy Stardust and the Spiders From Mars,35,1972
+36,Tapestry,36,1971
+37,Hotel California,37,1976
+38,The Anthology,38,2001
+39,Please Please Me,39,1963
+40,Forever Changes,40,1967
+41,Never Mind the Bollocks Here's the Sex Pistols,41,1977
+42,The Doors,42,1967
+43,The Dark Side of the Moon,43,1973
+44,Horses,44,1975
+45,"The Band (""The Brown Album"")",45,1969
+46,Legend: The Best of Bob Marley and The Wailers,46,1984
+47,A Love Supreme,47,1965
+48,It Takes a Nation of Millions to Hold Us Back,48,1988
+49,At Fillmore East,49,1971
+50,Here's Little Richard,50,1957
+51,Bridge Over Troubled Water,51,1970
+52,Greatest Hits,52,1975
+53,Meet The Beatles!,53,1964
+54,The Birth of Soul,54,1991
+55,Electric Ladyland,55,1968
+56,Elvis Presley,56,1956
+57,Songs in the Key of Life,57,1976
+58,Beggars Banquet,58,1968
+59,Chronicle: The 20 Greatest Hits,59,1976
+60,Trout Mask Replica,60,1969
+61,Greatest Hits,61,1970
+62,Appetite for Destruction,62,1987
+63,Achtung Baby,63,1991
+64,Sticky Fingers,64,1971
+65,Back to Mono (1958-1969),65,1991
+66,Moondance,66,1970
+67,Kid A,67,2000
+68,Off the Wall,68,1979
+69,[Led Zeppelin IV],69,1971
+70,The Stranger,70,1977
+71,Graceland,71,1986
+72,Superfly,72,1972
+73,Physical Graffiti,73,1975
+74,After the Gold Rush,74,1970
+75,Star Time,75,1991
+76,Purple Rain,76,1984
+77,Back in Black,77,1980
+78,Otis Blue: Otis Redding Sings Soul,78,1965
+79,Led Zeppelin II,79,1969
+80,Imagine,80,1971
+81,The Clash,81,1977
+82,Harvest,82,1972
+83,Axis: Bold as Love,83,1967
+84,I Never Loved a Man the Way I Love You,84,1967
+85,Lady Soul,85,1968
+86,Born in the U.S.A.,86,1984
+87,The Wall,87,1979
+88,At Folsom Prison,88,1968
+89,Dusty in Memphis,89,1969
+90,Talking Book,90,1972
+91,Goodbye Yellow Brick Road,91,1973
+92,20 Golden Greats,92,1978
+93,"Sign ""Peace"" the Times",93,1987
+94,40 Greatest Hits,94,1984
+95,Bitches Brew,95,1970
+96,Tommy,96,1969
+97,The Freewheelin' Bob Dylan,97,1963
+98,This Year's Model,98,1978
+99,There's a Riot Goin' On,99,1971
+100,Odessey and Oracle,100,1968
+101,In the Wee Small Hours,101,1955
+102,Fresh Cream,102,1966
+103,Giant Steps,103,1959
+104,Sweet Baby James,104,1970
+105,Modern Sounds in Country and Western Music,105,1962
+106,Rocket to Russia,106,1977
+107,Portrait of a Legend 1951-1964,107,2003
+108,Hunky Dory,108,1971
+109,Aftermath,109,1966
+110,Loaded,110,1970
+111,The Bends,111,1995
+112,If You Can Believe Your Eyes and Ears,112,1966
+113,Court and Spark,113,1974
+114,Disraeli Gears,114,1967
+115,The Who Sell Out,115,1967
+116,Out of Our Heads,116,1965
+117,Layla and Other Assorted Love Songs,117,1970
+118,Late Registration,118,2005
+119,At Last!,119,1960
+120,Sweetheart of the Rodeo,120,1968
+121,Stand!,121,1969
+122,The Harder They Come,122,1972
+123,Raising Hell,123,1986
+124,Moby Grape,124,1967
+125,Pearl,125,1971
+126,Catch a Fire,126,1973
+127,Younger Than Yesterday,127,1967
+128,Raw Power,128,1973
+129,Remain in Light,129,1980
+130,Marquee Moon,130,1977
+131,Paranoid,131,1970
+132,Saturday Night Fever: The Original Movie Sound Track,132,1977
+133,"The Wild, the Innocent & the E Street Shuffle",133,1973
+134,Ready to Die,134,1994
+135,Slanted and Enchanted,135,1992
+136,Greatest Hits,136,1974
+137,Tim,137,1985
+138,The Chronic,138,1992
+139,Rejuvenation,139,1974
+140,Parallel Lines,140,1978
+141,Live at the Regal,141,1965
+142,A Christmas Gift for You From Phil Spector,142,1963
+143,Gris-Gris,143,1968
+144,Straight Outta Compton,144,1988
+145,Aja,145,1977
+146,Surrealistic Pillow,146,1967
+147,Deja vu,147,1970
+148,Houses of the Holy,148,1973
+149,Santana,149,1969
+150,Darkness on the Edge of Town,150,1978
+151,Funeral,151,2004
+152,The B 52's / Play Loud,152,1979
+153,The Low End Theory,153,1991
+154,Moanin' in the Moonlight,154,1958
+155,Pretenders,155,1980
+156,Paul's Boutique,156,1989
+157,Closer,157,1980
+158,Captain Fantastic and the Brown Dirt Cowboy,158,1975
+159,Alive!,159,1975
+160,Electric Warrior,160,1971
+161,The Dock of the Bay,161,1968
+162,OK Computer,162,1997
+163,1999,163,1982
+164,The Very Best of Linda Ronstadt,164,2002
+165,Let's Get It On,165,1973
+166,Imperial Bedroom,166,1982
+167,Master of Puppets,167,1986
+168,My Aim Is True,168,1977
+169,Exodus,169,1977
+170,Live at Leeds,170,1970
+171,The Notorious Byrd Brothers,171,1968
+172,Every Picture Tells a Story,172,1971
+173,Something/Anything?,173,1972
+174,Desire,174,1976
+175,Close to You,175,1970
+176,Rocks,176,1976
+177,One Nation Under a Groove,177,1978
+178,The Anthology: 1961-1977,178,1992
+179,The Definitive Collection,179,2001
+180,"The Rolling Stones, Now!",180,1965
+181,Natty Dread,181,1974
+182,Fleetwood Mac,182,1975
+183,Red Headed Stranger,183,1975
+184,The Immaculate Collection,184,1990
+185,The Stooges,185,1969
+186,Fresh,186,1973
+187,So,187,1986
+188,Buffalo Springfield Again,188,1967
+189,Happy Trails,189,1969
+190,From Elvis in Memphis,190,1969
+191,Fun House,191,1970
+192,The Gilded Palace of Sin,192,1969
+193,Dookie,193,1994
+194,Transformer,194,1972
+195,"Blues Breakers With Eric Clapton (""The Beano Album"")",195,1966
+196,"Nuggets: Original Artyfacts From the First Psychedelic Era, 1965-1968",196,1998
+197,Murmur,197,1983
+198,The Best of Little Walter,198,1967
+199,Is This It,199,2001
+200,Highway to Hell,200,1979
+201,The Downward Spiral,201,1994
+202,"Parsley, Sage, Rosemary and Thyme",202,1966
+203,Bad,203,1987
+204,Modern Times,204,2006
+205,Wheels of Fire,205,1968
+206,Dirty Mind,206,1980
+207,Abraxas,207,1970
+208,Tea for the Tillerman,208,1970
+209,Ten,209,1991
+210,Everybody Knows This Is Nowhere,210,1969
+211,Wish You Were Here,211,1975
+212,Crooked Rain Crooked Rain,212,1994
+213,Tattoo You,213,1981
+214,Proud Mary: The Best of Ike and Tina Turner,214,1991
+215,New York Dolls,215,1973
+216,Bo Diddley / Go Bo Diddley,216,1986
+217,Two Steps From the Blues,217,1961
+218,The Queen Is Dead,218,1986
+219,Licensed to Ill,219,1986
+220,Look-Ka Py Py,220,1970
+221,Loveless,221,1991
+222,New Orleans Piano,222,1972
+223,War,223,1983
+224,The Neil Diamond Collection,224,1999
+225,American Idiot,225,2004
+226,Nebraska,226,1982
+227,Doolittle,227,1989
+228,Paid in Full,228,1987
+229,Toys in the Attic,229,1975
+230,Nick of Time,230,1989
+231,A Night at the Opera,231,1975
+232,The Kink Kronikles,232,1972
+233,Mr. Tambourine Man,233,1965
+234,Bookends,234,1968
+235,The Ultimate Collection,235,2000
+236,Mr. Excitement!,236,1992
+237,My Generation,237,1965
+238,Howlin' Wolf,238,1962
+239,Like a Prayer,239,1989
+240,Can't Buy a Thrill,240,1972
+241,Let It Be,241,1984
+242,Run D.M.C.,242,1984
+243,Black Sabbath,243,1970
+244,The Marshall Mathers LP,244,2000
+245,All Killer No Filler! The Jerry Lee Lewis Anthology,245,1993
+246,Freak Out!,246,1966
+247,Live/Dead,247,1969
+248,The Shape of Jazz to Come,248,1959
+249,Automatic for the People,249,1992
+250,Reasonable Doubt,250,1996
+251,Low,251,1977
+252,The Blueprint,252,2001
+253,The River,253,1980
+254,Complete & Unbelievable: The Otis Redding Dictionary of Soul,254,1966
+255,"Metallica (""The Black Album"")",255,1991
+256,Trans Europa Express,256,1977
+257,Whitney Houston,257,1985
+258,The Kinks Are The Village Green Preservation Society,258,1968
+259,The Velvet Rope,259,1997
+260,Stardust,260,1978
+261,American Beauty,261,1970
+262,"Crosby, Stills & Nash",262,1969
+263,Tracy Chapman,263,1988
+264,Workingman's Dead,264,1970
+265,The Genius of Ray Charles,265,1959
+266,Child Is Father to the Man,266,1968
+267,Quadrophenia,267,1973
+268,Paul Simon,268,1972
+269,Psychocandy,269,1985
+270,Some Girls,270,1978
+271,The Beach Boys Today!,271,1965
+272,Dig Me Out,272,1997
+273,Going to a Go-Go,273,1966
+274,Nightbirds,274,1974
+275,The Slim Shady LP,275,1999
+276,Mothership Connection,276,1975
+277,Rhythm Nation 1814,277,1989
+278,Anthology of American Folk Music,278,1997
+279,Aladdin Sane,279,1973
+280,All That You Can't Leave Behind,280,2000
+281,My Life,281,1994
+282,Folk Singer,282,1964
+283,Can't Get Enough,283,1974
+284,The Cars,284,1978
+285,Music of My Mind,285,1972
+286,I'm Still in Love With You,286,1972
+287,Los Angeles,287,1980
+288,Anthem of the Sun,288,1968
+289,Something Else by The Kinks,289,1967
+290,Call Me,290,1973
+291,Talking Heads: 77,291,1977
+292,The Basement Tapes,292,1975
+293,White Light/White Heat,293,1968
+294,Kick Out the Jams,294,1969
+295,Songs of Love and Hate,295,1970
+296,Meat Is Murder,296,1985
+297,We're Only in It for the Money,297,1968
+298,The College Dropout,298,2003
+299,Weezer (Blue Album),299,1994
+300,Master of Reality,300,1971
+301,Coat of Many Colors,301,1971
+302,Fear of a Black Planet,302,1990
+303,John Wesley Harding,303,1967
+304,Grace,304,1994
+305,Car Wheels on a Gravel Road,305,1998
+306,Odelay,306,1996
+307,A Hard Day's Night,307,1964
+308,Songs for Swingin' Lovers!,308,1956
+309,Willy and the Poor Boys,309,1969
+310,Blood Sugar Sex Magik,310,1991
+311,The Sun Records Collection,311,1994
+312,Nothing's Shocking,312,1988
+313,MTV Unplugged in New York,313,1994
+314,The Miseducation of Lauryn Hill,314,1998
+315,Damn the Torpedoes,315,1979
+316,The Velvet Underground,316,1969
+317,Surfer Rosa,317,1988
+318,Back Stabbers,318,1972
+319,Burnin',319,1973
+320,Amnesiac,320,2001
+321,Pink Moon,321,1972
+322,Sail Away,322,1972
+323,Ghost in the Machine,323,1981
+324,Station to Station,324,1976
+325,Slowhand,325,1977
+326,Disintegration,326,1989
+327,Exile in Guyville,327,1993
+328,Daydream Nation,328,1988
+329,In the Jungle Groove,329,1986
+330,Tonight's the Night,330,1975
+331,Help!,331,1965
+332,Shoot Out the Lights,332,1982
+333,Wild Gift,333,1981
+334,Squeezing Out Sparks,334,1979
+335,Superunknown,335,1994
+336,In Rainbows,336,2007
+337,Aqualung,337,1971
+338,Cheap Thrills,338,1968
+339,The Heart of Saturday Night,339,1974
+340,Damaged,340,1981
+341,Play,341,1999
+342,Violator,342,1990
+343,Bat Out of Hell,343,1977
+344,Berlin,344,1973
+345,Stop Making Sense,345,1984
+346,3 Feet High and Rising,346,1989
+347,The Piper at the Gates of Dawn,347,1967
+348,Muddy Waters at Newport 1960,348,1960
+349,The Black Album,349,2003
+350,Roger the Engineer,350,1966
+351,Rust Never Sleeps,351,1979
+352,Brothers in Arms,352,1985
+353,My Beautiful Dark Twisted Fantasy,353,2010
+354,52nd Street,354,1978
+355,Having a Rave Up,355,1965
+356,12 Songs,356,1970
+357,Between the Buttons,357,1967
+358,Sketches of Spain,358,1960
+359,Honky Chteau,359,1972
+360,Singles Going Steady,360,1979
+361,Stankonia,361,2000
+362,Siamese Dream,362,1993
+363,Substance 1987,363,1987
+364,L.A. Woman,364,1971
+365,Rage Against the Machine,365,1992
+366,American Recordings,366,1994
+367,Ray of Light,367,1998
+368,Eagles,368,1972
+369,Louder Than Bombs,369,1987
+370,Mott,370,1973
+371,"Whatever People Say I Am, That's What I'm Not",371,2006
+372,Reggatta de Blanc,372,1979
+373,Volunteers,373,1969
+374,Siren,374,1975
+375,Late for the Sky,375,1974
+376,Post,376,1995
+377,The Ultimate Collection: 1948-1990,377,1991
+378,(What's the Story) Morning Glory?,378,1995
+379,CrazySexyCool,379,1994
+380,Funky Kingston,380,1973
+381,The Smile Sessions,381,2011
+382,The Modern Lovers,382,1976
+383,More Songs About Buildings and Food,383,1978
+384,A Quick One,384,1966
+385,"""Love and Theft""",385,2001
+386,Pretzel Logic,386,1974
+387,Enter the Wu_Tang: 36 Chambers,387,1993
+388,The Indestructible Beat of Soweto,388,1985
+389,The End of the Innocence,389,1989
+390,Elephant,390,2003
+391,The Pretender,391,1976
+392,Let It Be,392,1970
+393,Kala,393,2007
+394,Good Old Boys,394,1974
+395,Sound of Silver,395,2007
+396,For Your Pleasure,396,1973
+397,Blue Lines,397,1991
+398,Eliminator,398,1983
+399,Rain Dogs,399,1985
+400,Anthology: The Best of The Temptations,400,1995
+401,Californication,401,1999
+402,Illmatic,402,1994
+403,(pronounced 'leh-'nerd 'skin-'nerd),403,1973
+404,Dr. John's Gumbo,404,1972
+405,Radio City,405,1974
+406,Rid of Me,406,1993
+407,Sandinista!,407,1980
+408,I Do Not Want What I Haven't Got,408,1989
+409,Strange Days,409,1967
+410,Time Out of Mind,410,1997
+411,461 Ocean Boulevard,411,1974
+412,Pink Flag,412,1977
+413,Double Nickels on the Dime,413,1984
+414,Beauty and the Beat,414,1981
+415,Van Halen,415,1978
+416,Mule Variations,416,1999
+417,Boy,417,1980
+418,Band on the Run,418,1973
+419,Dummy,419,1994
+420,"The ""Chirping"" Crickets",420,1957
+421,"The Best of the Girl Groups, Volume 1",421,1990
+422,Presenting the Fabulous Ronettes Featuring Veronica,422,1963
+423,Anthology,423,2001
+424,The Rising,424,2002
+425,Grievous Angel,425,1974
+426,Cheap Trick at Budokan,426,1978
+427,Sleepless,427,2002
+428,Outlandos d'Amour,428,1978
+429,Another Green World,429,1975
+430,Vampire Weekend,430,2007
+431,"Stories From the City, Stories From the Sea",431,2000
+432,Here Come the Warm Jets,432,1973
+433,All Things Must Pass,433,1970
+434,#1 Record,434,1972
+435,In Utero,435,1993
+436,Sea Change,436,2002
+437,Tha Carter III,437,2008
+438,Boys Don't Cry,438,1979
+439,"Live at the Harlem Square Club, 1963",439,1985
+440,Rum Sodomy & the Lash,440,1985
+441,Suicide,441,1977
+442,Q: Are We Not Men? A: We Are Devo!,442,1978
+443,In Color,443,1977
+444,The World Is a Ghetto,444,1972
+445,Fly Like an Eagle,445,1976
+446,Back in the USA,446,1970
+447,Getz / Gilberto,447,1964
+448,Synchronicity,448,1983
+449,Third/Sister Lovers,449,1978
+450,For Everyman,450,1973
+451,Back to Black,451,2006
+452,John Prine,452,1971
+453,Strictly Business,453,1987
+454,Love It to Death,454,1971
+455,How Will the Wolf Survive?,455,1984
+456,"Here, My Dear",456,1978
+457,Z,457,2005
+458,Tumbleweed Connection,458,1970
+459,The Drifters' Golden Hits,459,1968
+460,Live Through This,460,1994
+461,Metal Box,461,1979
+462,Document,462,1987
+463,Heaven Up Here,463,1981
+464,Hysteria,464,1987
+465,69 Love Songs,465,1999
+466,A Rush of Blood to the Head,466,2002
+467,Tunnel of Love,467,1987
+468,The Paul Butterfield Blues Band,468,1965
+469,The Score,469,1996
+470,Radio,470,1985
+471,I Want to See the Bright Lights Tonight,471,1974
+472,Faith,472,1987
+473,The Smiths,473,1984
+474,Proxima estacion: Esperanza,474,2001
+475,Armed Forces,475,1979
+476,Life After Death,476,1997
+477,Down Every Road,477,1996
+478,All Time Greatest Hits,478,2002
+479,Maggot Brain,479,1971
+480,Only Built 4 Cuban Linx,480,1995
+481,Voodoo,481,2000
+482,Guitar Town,482,1986
+483,Entertainment!,483,1979
+484,All the Young Dudes,484,1972
+485,Vitalogy,485,1994
+486,That's the Way of the World,486,1975
+487,She's So Unusual,487,1983
+488,New Day Rising,488,1985
+489,Destroyer,489,1976
+490,Tres hombres,490,1973
+491,Born Under a Bad Sign,491,1967
+492,Touch,492,1983
+493,Yankee Hotel Foxtrot,493,2002
+494,Oracular Spectacular,494,2007
+495,Give It Up,495,1972
+496,Boz Scaggs,496,1969
+497,White Blood Cells,497,2001
+498,The Stone Roses,498,1989
+499,Live in Cook County Jail,499,1971
+500,Aquemini,500,1998
