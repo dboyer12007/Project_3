@@ -23,7 +23,7 @@ By the end of this project, we aim to deliver:
 - 
 - 
 - 
-** Ethical Considerations
+## Ethical Considerations
 - Extracting datasets from reliable sources and making sure to cite them (Kaggle and MusicBrainz)
 - Apllying integrity, transparency and ethical principles to data cleaning, transforming, loading.
 
