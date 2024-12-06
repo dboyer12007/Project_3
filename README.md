@@ -10,17 +10,17 @@ The objective of this project is to aggregate and analyze student performance da
 
 
 ## Tasks
-1. ****: 
-2. ****:
-3. ****: 
+1. Extracting two datasets about top selling albums from Kaggle and MusicBrainz API. 
+2. Cleaning and transforming data in order to merge both of the two data for analyzing.
+3. Storing the transformed data in a PostgreSQL database with 5 tables for efficient and optimized querying.
+4. Using tools such as JavaScript, Jupyuter Notebook or Python Flask API to visualize the dataset.
+5. Analyzing the trends, and patterns of popular genres and artists.
 
-## Analysis Approach
-
-  
 ## Tools and Technologies
 - **Python**: For data manipulation, analysis, and visualization.
 - **Pandas**: For efficient data handling and aggregation.
 - **Jupyter Notebook**: For an interactive analysis environment.
+- **Quick Database Diagrams**: For quickly creating relational database diagrams by typing or drawing schemas.
 
 ## Expected Outcomes
 By the end of this project, we aim to deliver:
