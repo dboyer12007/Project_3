@@ -1,9 +1,9 @@
 # Project_3 - Data Engineering
 
-# Top 500 Selling Albums Analysis
+# Rolling Stones Top 500 Albums of All Time
 
 ## Overview
-The Top Selling Albums Analysis projects aims to create a comprehensive and interactive dataset of the best selling albums of all time. We aim to clean, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
+The Rolling Stones Top 500 Albums of All Time projects aims to create a comprehensive and interactive dataset of the greatest albums of all time ranked by Rolling Stones Magazine. We aim to extract, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
 
 ## Objective
 1. Extracting two datasets about top selling albums from Kaggle and MusicBrainz API. 
