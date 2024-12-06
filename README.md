@@ -6,10 +6,6 @@
 The Top Selling Albums Analysis projects aims to create a comprehensive and interactive dataset of the best selling albums of all time. We aim to clean, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
 
 ## Objective
-
-
-
-## Tasks
 1. Extracting two datasets about top selling albums from Kaggle and MusicBrainz API. 
 2. Cleaning and transforming data in order to merge both of the two data for analyzing.
 3. Storing the transformed data in a PostgreSQL database with 5 tables for efficient and optimized querying.
@@ -33,7 +29,7 @@ By the end of this project, we aim to deliver:
 
 ## References
 - Kaggle Dataset: Top 500 Selling Albums
-  ```
+  ```Link
   https://www.kaggle.com/datasets/notgibs/500-greatest-albums-of-all-time-rolling-stone?select=albumlist.csv
   ```
 - MusicBrainz API: MusicBrainz API Documentation
