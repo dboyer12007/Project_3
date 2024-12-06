@@ -1,6 +1,6 @@
 # Project_3 - Data Engineering
 
-# Top Selling Albums Analysis
+# Top 500 Selling Albums Analysis
 
 ## Overview
 The Top Selling Albums Analysis projects aims to create a comprehensive and interactive dataset of the best selling albums of all time. We aim to clean, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
@@ -27,6 +27,14 @@ By the end of this project, we aim to deliver:
 - 
 - 
 - 
+** Ethical Considerations
+- Extracting datasets from reliable sources and making sure to cite them (Kaggle and MusicBrainz)
+- Apllying integrity, transparency and ethical principles to data cleaning, transforming, loading.
+
+## References
+- Kaggle Dataset: Top 500 Selling Albums
+- MusicBrainz API: MusicBrainz API Documentation
+
 
 ## How to Use This Repository
 1. Clone the repository:
