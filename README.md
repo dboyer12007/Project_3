@@ -6,7 +6,7 @@
 The Top Selling Albums Analysis projects aims to create a comprehensive and interactive dataset of the best selling albums of all time. We aim to clean, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
 
 ## Objective
-The objective of this project is to aggregate and analyze student performance data across all schools in the district. By exploring various metrics such as math and reading scores and school-specific information, we aim to identify trends in school performance that can help guide decision-making for the district.
+
 
 
 ## Tasks
@@ -33,6 +33,9 @@ By the end of this project, we aim to deliver:
 
 ## References
 - Kaggle Dataset: Top 500 Selling Albums
+  ```
+  https://www.kaggle.com/datasets/notgibs/500-greatest-albums-of-all-time-rolling-stone?select=albumlist.csv
+  ```
 - MusicBrainz API: MusicBrainz API Documentation
 
 
