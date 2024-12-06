@@ -19,7 +19,7 @@ The Top Selling Albums Analysis projects aims to create a comprehensive and inte
 - **Quick Database Diagrams**: For quickly creating relational database diagrams by typing or drawing schemas.
 
 ## Expected Outcomes
-** By the end of this project, we aim to deliver:
+
 - 
 - 
 - 
