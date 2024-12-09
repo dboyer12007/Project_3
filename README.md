@@ -28,7 +28,7 @@ The Rolling Stones Top 500 Albums of All Time projects aims to create a comprehe
 - Apllying integrity, transparency and ethical principles to data cleaning, transforming, loading.
 
 ## References
-- Kaggle Dataset: Top 500 Selling Albums
+- Kaggle Dataset: Top 500 Albums
   ```Link
   https://www.kaggle.com/datasets/notgibs/500-greatest-albums-of-all-time-rolling-stone?select=albumlist.csv
   ```
