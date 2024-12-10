@@ -1,5 +1,5 @@
 // Set file path (adjust to your environment if necessary)
-const csvPath = "CSV Files For Data/final_data.csv";
+const csvPath = "CSV_Files_for_Data/final_data.csv";
 
 // Function to load data and initialize visualization
 d3.csv(csvPath).then(data => {
