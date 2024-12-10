@@ -5,13 +5,13 @@ Git Hub Pages: https://dboyer12007.github.io/Project_3/
 # Rolling Stones Top 500 Albums of All Time
 
 ## Overview
-The Rolling Stones Top 500 Albums of All Time projects aims to create a comprehensive and interactive dataset of the greatest albums of all time ranked by Rolling Stones Magazine. We aim to extract, transform and load (ETL workflow) the data into a relational data (PostgreSQL). The project will show the music trends in terms on genre, artist, release year.
+The Rolling Stones Top 500 Albums of All Time project aims to create a comprehensive and interactive dataset of the greatest albums of all time ranked by Rolling Stones Magazine. We aim to extract, transform, and load (ETL workflow) the data into relational data (PostgreSQL). The project will show the music trends in terms of genre, artist, and release year.
 
 ## Objective
-1. Extracting two datasets about top selling albums from Kaggle and MusicBrainz API. 
-2. Cleaning and transforming data in order to merge both of the two data for analyzing.
+1. Extracting two datasets about top-selling albums from Kaggle and MusicBrainz API. 
+2. Cleaning and transforming data in order to merge both of the two data for analysis.
 3. Storing the transformed data in a PostgreSQL database with 5 tables for efficient and optimized querying.
-4. Using tools such as JavaScript, Jupyuter Notebook or Python Flask API to visualize the dataset.
+4. Using tools such as JavaScript, Jupyter Notebook, or Python Flask API to visualize the dataset.
 5. Analyzing the trends, and patterns of popular genres and artists.
 
 ## Tools and Technologies
@@ -27,7 +27,7 @@ The Rolling Stones Top 500 Albums of All Time projects aims to create a comprehe
 - 
 ## Ethical Considerations
 - Extracting datasets from reliable sources and making sure to cite them (Kaggle and MusicBrainz)
-- Apllying integrity, transparency and ethical principles to data cleaning, transforming, loading.
+- Applying integrity, transparency, and ethical principles to data cleaning, transforming, and loading.
 
 ## References
 - Kaggle Dataset: Top 500 Albums
