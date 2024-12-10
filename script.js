@@ -1,61 +1,59 @@
-// Set file path (adjust to your environment if necessary)
-const csvPath = "CSV_Files_for_Data/final_data.csv";
+// Path to your CSV file
+const csvPath = './CSV_Files_for_Data/final_data.csv';
 
-// Function to load data and initialize visualization
+// Load CSV data
 d3.csv(csvPath).then(data => {
-    // Populate dropdown menu
-    const artists = Array.from(new Set(data.map(d => d.Artist)));
-    const dropdown = d3.select("#artist-dropdown");
-    dropdown
-        .selectAll("option")
+    // Populate Dropdown for Artists
+    const artists = [...new Set(data.map(d => d.Artist))].sort(); // Unique sorted artists
+    const dropdown = d3.select('#artist-dropdown');
+
+    dropdown.selectAll('option')
         .data(artists)
         .enter()
-        .append("option")
+        .append('option')
         .text(d => d)
-        .attr("value", d => d);
+        .attr('value', d => d);
 
-    // Render the initial bar chart
-    renderBarChart(data);
-
-    // Update bar chart on dropdown change
-    dropdown.on("change", function () {
+    // Event listener for dropdown selection
+    dropdown.on('change', function() {
         const selectedArtist = this.value;
-        const filteredData = data.filter(d => d.Artist === selectedArtist);
-        renderBarChart(filteredData);
+        const albums = data
+            .filter(d => d.Artist === selectedArtist)
+            .map(d => d.Album);
+
+        // Display Albums for Selected Artist
+        const outputDiv = d3.select('#artist-output');
+        outputDiv.html('<h3>Albums:</h3>');
+        outputDiv.selectAll('p')
+            .data(albums)
+            .enter()
+            .append('p')
+            .text(d => d);
     });
-});
 
-// Function to render the bar chart
-function renderBarChart(data) {
-    const svgWidth = 800;
-    const svgHeight = 400;
-    const margin = { top: 20, right: 30, bottom: 50, left: 50 };
-
-    const width = svgWidth - margin.left - margin.right;
-    const height = svgHeight - margin.top - margin.bottom;
-
-    // Clear previous chart
-    d3.select("#bar-chart").selectAll("*").remove();
-
-    // Create SVG container
-    const svg = d3.select("#bar-chart")
-        .append("svg")
-        .attr("width", svgWidth)
-        .attr("height", svgHeight);
-
-    const chart = svg.append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    // Prepare data
-    const years = d3.rollup(
+    // Create Bar Chart for Released Years
+    const yearCounts = d3.rollup(
         data,
         v => v.length,
         d => d.Released_Year
     );
 
-    const yearData = Array.from(years, ([key, value]) => ({ year: key, count: value }));
+    const yearData = Array.from(yearCounts, ([year, count]) => ({
+        year: +year,
+        count: count
+    })).sort((a, b) => a.year - b.year);
 
-    // Set scales
+    const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+    const width = 800 - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+
+    const svg = d3.select('#bar-chart')
+        .append('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left},${margin.top})`);
+
     const x = d3.scaleBand()
         .domain(yearData.map(d => d.year))
         .range([0, width])
@@ -66,25 +64,36 @@ function renderBarChart(data) {
         .nice()
         .range([height, 0]);
 
-    // Add axes
-    chart.append("g")
-        .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x).tickFormat(d => d))
-        .selectAll("text")
-        .attr("transform", "rotate(-45)")
-        .style("text-anchor", "end");
-
-    chart.append("g")
-        .call(d3.axisLeft(y));
-
-    // Add bars
-    chart.selectAll(".bar")
+    svg.append('g')
+        .selectAll('rect')
         .data(yearData)
         .enter()
-        .append("rect")
-        .attr("class", "bar")
-        .attr("x", d => x(d.year))
-        .attr("y", d => y(d.count))
-        .attr("width", x.bandwidth())
-        .attr("height", d => height - y(d.count));
-}
+        .append('rect')
+        .attr('x', d => x(d.year))
+        .attr('y', d => y(d.count))
+        .attr('width', x.bandwidth())
+        .attr('height', d => height - y(d.count))
+        .attr('fill', 'steelblue');
+
+    svg.append('g')
+        .attr('transform', `translate(0,${height})`)
+        .call(d3.axisBottom(x).tickFormat(d3.format('d')))
+        .selectAll('text')
+        .attr('transform', 'rotate(-45)')
+        .style('text-anchor', 'end');
+
+    svg.append('g').call(d3.axisLeft(y));
+
+    svg.append('text')
+        .attr('x', width / 2)
+        .attr('y', height + margin.bottom)
+        .attr('text-anchor', 'middle')
+        .text('Year');
+
+    svg.append('text')
+        .attr('transform', 'rotate(-90)')
+        .attr('x', -height / 2)
+        .attr('y', -margin.left + 10)
+        .attr('text-anchor', 'middle')
+        .text('Number of Albums Released');
+});
