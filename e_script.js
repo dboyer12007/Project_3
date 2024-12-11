@@ -1,8 +1,10 @@
 // Path to your CSV file
-const csvPath = './CSV_Files_for_Data/final_data.csv';
+const csvPath = 'CSV_Files_for_Data/final_data.csv';
 
 // Load CSV data
 d3.csv(csvPath).then(data => {
+    console.log(data);
+
     // Populate Dropdown for Artists
     const artists = [...new Set(data.map(d => d.Artist))].sort();
     const dropdown = d3.select('#artist-dropdown');
@@ -75,8 +77,22 @@ d3.csv(csvPath).then(data => {
             count: count
         })).sort((a, b) => a.year - b.year);
 
+        // Update the scales
         x.domain(yearData.map(d => d.year));
         y.domain([0, d3.max(yearData, d => d.count)]).nice();
+
+        // Gradient for Bars
+        const gradient = svg.append("defs")
+            .append("linearGradient")
+            .attr("id", "bar-gradient")
+            .attr("gradientTransform", "rotate(90)");
+
+        gradient.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", "#1f77b4");
+        gradient.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", "#ff7f0e");
 
         // Update axes
         xAxisGroup.call(d3.axisBottom(x).tickFormat(d3.format('d')))
@@ -85,45 +101,48 @@ d3.csv(csvPath).then(data => {
             .style('text-anchor', 'end');
         yAxisGroup.call(d3.axisLeft(y));
 
-        // Bind data to bars
+        // Update bars
         const bars = svg.selectAll('.bar')
             .data(yearData, d => d.year);
 
-        // Enter
+        // Enter bars
         bars.enter()
             .append('rect')
             .attr('class', 'bar')
             .attr('x', d => x(d.year))
+            .attr('y', y(0))
             .attr('width', x.bandwidth())
-            .attr('y', height)
             .attr('height', 0)
-            .attr('fill', 'steelblue')
+            .attr('fill', 'url(#bar-gradient)')
             .on('mouseover', (event, d) => {
                 tooltip.style('visibility', 'visible')
-                    .text(`Year: ${d.year}, Albums: ${d.count}`);
+                    .html(`Year: ${d.year}<br>Albums: ${d.count}`);
             })
             .on('mousemove', event => {
-                tooltip.style('top', `${event.pageY - 20}px`)
+                tooltip.style('top', `${event.pageY - 10}px`)
                     .style('left', `${event.pageX + 10}px`);
             })
-            .on('mouseout', () => {
-                tooltip.style('visibility', 'hidden');
-            })
+            .on('mouseout', () => tooltip.style('visibility', 'hidden'))
             .transition()
             .duration(1000)
             .attr('y', d => y(d.count))
             .attr('height', d => height - y(d.count));
 
-        // Update
+        // Update existing bars
         bars.transition()
             .duration(1000)
             .attr('x', d => x(d.year))
             .attr('width', x.bandwidth())
             .attr('y', d => y(d.count))
             .attr('height', d => height - y(d.count))
-            .attr('fill', 'steelblue');
+            .attr('fill', 'url(#bar-gradient)');
 
-        // Exit
-        bars.exit().remove();
-    }
-});
+        // Remove exiting bars
+        bars.exit()
+            .transition()
+            .duration(1000)
+            .attr('y', y(0))
+            .attr('height', 0)
+            .remove();
+
+}});
