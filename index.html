@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Visualization</title>
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- D3.js Library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- CSS Files -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="e_styles.css">
 </head>
@@ -14,7 +18,9 @@
     <!-- Dropdown for Artist Selection -->
     <div>
         <label for="artist-dropdown">Select an Artist:</label>
-        <select id="artist-dropdown"></select>
+        <select id="artist-dropdown">
+            <option value="" disabled selected>Select an Artist</option>
+        </select>
     </div>
 
     <div id="artist-output"></div>
@@ -25,11 +31,20 @@
         <div id="bar-chart"></div>
     </div>
 
-    <!-- 
-    <script src="script.js"></script>   
-    -->
+    <!-- Pie Chart for Albums Distribution -->
+    <div>
+        <h2>Albums Distribution</h2>
+        <canvas id="pie-chart"></canvas>
+    </div>
 
+    <div>
+        <h2>Albums Released by Year</h2>
+        <canvas id="bar-chart-2"></canvas>
+    </div>
+    
+    <!-- JavaScript Files -->
     <script src="e_script.js"></script>
-
+    <script src="pie_chart.js"></script>
+    <script src="bar_chart.js"></script>
 </body>
 </html>
