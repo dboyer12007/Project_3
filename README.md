@@ -22,7 +22,6 @@ The Rolling Stones Top 500 Albums of All Time project aims to create a comprehen
 
 ## Expected Outcomes
 
-The expected outcomes from this objective are:
 - Dataset Extraction: Successful retrieval of two datasets—one from Kaggle and the other from the MusicBrainz API—containing information about top-selling albums.
 - Data Cleaning and Transformation: Preparation of clean, consistent, and structured data by handling duplicates, missing values, and formatting inconsistencies to enable seamless merging of 
   the two datasets for analysis.
