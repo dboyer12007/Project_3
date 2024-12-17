@@ -31,6 +31,7 @@ The Rolling Stones Top 500 Albums of All Time project aims to create a comprehen
 ## Ethical Considerations
 - Extracting datasets from reliable sources and making sure to cite them (Kaggle and MusicBrainz)
 - Applying integrity, transparency, and ethical principles to data cleaning, transforming, and loading.
+- Make sure to include all the citations of data sources (Google, Youtube, ChatGPT, etc).
 
 ## References
 - Kaggle Dataset: Top 500 Albums
